@@ -15,14 +15,15 @@ For instance one can:
 6. Count the number of appearances of a certain string in a text.
 
 
-TASK 1: Returns the number of characters in str. 
-TASK 2: Returns the number of words in str. 
-TASK 3: Replaces every instance of the characters in target in str with the characters in to. 
-TASK 4: Encrypts the text in str using a Shift Cipher by shift amount shift to the right. Shift can be negative to introduce a left shit.
-TASK 5: Counts the number of occurences of target in str. 
-TASK 6: 
-        1. Converts str into lines which contain at most NUM_CHARS_PER_LINE characters and save the lines with lines. 
-        2. Prints str in a left-aligned format. 
-        3. Prints str in right-aligned format. (Blank at start) 
-        4. Prints str in right-left-aligned format. 
-TASK 7: Converts the words in str to Pig Latin. 
+TASK 1: Returns the number of characters in str.  
+TASK 2: Returns the number of words in str.  
+TASK 3: Replaces every instance of the characters in target in str with the characters in to.  
+TASK 4: Encrypts the text in str using a Shift Cipher by shift amount shift to the right. Shift can be negative to introduce a left shit. 
+TASK 5: Counts the number of occurences of target in str.  
+TASK 6:  
+        1. Converts str into lines which contain at most NUM_CHARS_PER_LINE characters and save the lines with lines.  
+        2. Prints str in a left-aligned format.  
+        3. Prints str in right-aligned format. (Blank at start)  
+        4. Prints str in right-left-aligned format.  
+TASK 7: Converts the words in str to Pig Latin.  
+ 
