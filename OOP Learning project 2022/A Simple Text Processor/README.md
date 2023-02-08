@@ -1,8 +1,4 @@
 
-Learning:
-1. Learn how to use functions to divide your program into small components
-2. Use char arrays to store and manipulate a string of characters
-3. Use const references to ensure that variables are not modified in functions
 
 The objective of this program is to implement a few functionalities of a text processor.
 A text processor allows users to manipulate a string of characters. These manipulations provide innumerable options with which to personalise a document.
