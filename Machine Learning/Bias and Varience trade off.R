@@ -80,3 +80,19 @@ for(i in 1:length(puse)){
     out_knn<- rbind(out_knn, data.frame(error = variance_knn, component = "variance", K = 1/k, p = paste0("p = ", puse[i])))
     out_knn<- rbind(out_knn, data.frame(error = err_knn, component = "MSE", K = 1/k, p = paste0("p = ", puse[i])))
 }
+
+                     
+out_lm[, "p"] <- factor(out_lm[, "p"], levels = paste0("p = ", puse))
+out_knn[, "p"] <- factor(out_knn[, "p"], levels = paste0("p = ", puse))
+
+p <- ggplot(data = out_knn, aes(x = K, y = error, col = component)) +
+    geom_line() +
+    geom_hline(data = out_lm, aes(yintercept = error, col = component), linetype = "dashed") +
+    facet_grid(. ~ p) +
+    labs(x = "1/K", y = "Error") +
+    theme(
+        text = element_text(size = 20),
+        axis.text.y = element_text(size = 20),
+        axis.text.x = element_text(angle = 45, vjust = 0.5, hjust = 0.5, size = 15)
+    )
+p
