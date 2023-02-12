@@ -73,78 +73,78 @@ predict_logistic <- function(obj,X){
   pihat <- sigmoid(muhat)
   pihat[pihat>0.9999] <- 0.9999
   pihat[pihat<0.0001] <- 0.0001
-
+  
   return(list(muhat=muhat,pihat=pihat))
 }
 
 cv.logisticRidge <- function(X, y, lambda, maxIter=100,tol=1e-8 , nfolds=10, ...){
   p <- ncol(X)
   n <- nrow(X)
-
+  
   # decide the cv assignments
   idx <- round(sample(1:n)/n*nfolds)
-
+  
   testllh  <- matrix(0,nfolds,length(lambda))
-
+  
   # report settings
   message("Info: Number of variables: ", p)
   message("Info: Sample size: ", n)
   message("Info: Number of cv folds: ", nfolds)
-
+  
   cat("start cv process......... total",nfolds,"validation sets \n")
-
+  
   for(i in 1:nfolds) {
     cat(i,"-th validation set... \n")
-
+    
     X_train <- X[idx!=i,]
     y_train <- y[idx!=i]
-
+    
     X_test  <- matrix(X[idx==i,],ncol = p)
     y_test  <- y[idx==i]
-
-
+    
+    
     fit_logit <- logistic_ridge(X_train,y_train,lambda=lambda,maxIter=100,tol=1e-8,...)
-
+    
     pred <- predict_logistic(fit_logit,X_test)
     testllh[i,]  <- colSums(y_test*log(pred$pihat))+colSums((1-y_test)*log(1-pred$pihat))
   }
-
+  
   cvsd <- sqrt(apply(testllh,MARGIN = 2,var)/(nfolds-1))
   cvm  <- colMeans(testllh)
   idx.max <- which.max(cvm)
   lambda.max <- fit_logit$lambda[idx.max]
-
+  
   final_model <- logistic_ridge(X,y,lambda = lambda.max)
-
+  
   cv_ridge <- list(cvm=cvm,cvsd=cvsd,lambda=fit_logit$lambda,lambda.max=lambda.max,final_model=final_model,testllh=testllh)
   attr(cv_ridge,"class") <- "cv.logisticRidge"
-
+  
   return(cv_ridge)
 }
 
 plot.cv.logisticRidge <- function(object,width=0.01,...) {
-
+  
   x <- log(object$lambda)
   y <- object$cvm
-
+  
   upper <- y+object$cvsd/2
   lower <- y-object$cvsd/2
   ylim  <- range(upper,lower)
   barw  <- diff(range(x))*width
-
+  
   plot(x,y,ylim = ylim,type = "n",xlab = "Log(Lambda)",ylab = "Predictive likelihood",...)
-
+  
   segments(x,lower,x,upper,col="darkgrey")
   segments(x-barw,lower,x+barw,lower,col="darkgrey")
   segments(x-barw,upper,x+barw,upper,col="darkgrey")
   points(x,y,col="red",pch=20)
-
+  
   abline(v=log(object$lambda.max),lty=3)
 }
 
 # Read data
-dat_train <- read.table("train.txt",header = T)
-lambda <- read.table("lambda.txt")
+dat_train <- read.table('D:\\MATH4432\\Assignment 3\\train.txt',header = T)
+lambda <- read.table('D:\\MATH4432\\Assignment 3\\lambda.txt')
 
 y <- dat_train$y
 X <- data.matrix(dat_train[,-1])
