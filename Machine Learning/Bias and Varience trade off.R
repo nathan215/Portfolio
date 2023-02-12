@@ -29,13 +29,13 @@ for(i in 1:length(puse)){
     for(l in 1:nrep){
         y <- y0 + rnorm(ntrain, 0, sigma)
     
-        ######### DO: fit linear regression using lm funciton, assign predicted value to yhat_lm[,l] #########
+        ######### fit linear regression using lm funciton, assign predicted value to yhat_lm[,l] #########
         fit_lm <- lm(y ~ ., data.frame(y = y, x = Xtrain[, 1 : puse[i]]))
         yhat_lm[, l] <- predict(fit_lm, data.frame(x = Xtest[, 1 : puse[i]])) # predicted value by lm
       
     
         for(j in 1:length(k)){
-            ######### DO: fit knn using knn.reg funciton, assign predicted value to yhat_knn[, l, j] #########
+            ######### fit knn using knn.reg funciton, assign predicted value to yhat_knn[, l, j] #########
             fit_knn <- knn.reg(train = data.matrix(Xtrain[, 1 : puse[i]]), test = data.matrix(Xtest[, 1 : puse[i]]), y = y, k = k[j])
             yhat_knn[, l, j] <- fit_knn$pred # predicted value by knn.reg
         }
@@ -62,7 +62,7 @@ for(i in 1:length(puse)){
     out_lm <- rbind(out_lm, data.frame(error = err_lm, component = "MSE", p = paste0("p = ", puse[i])))
   
   
-    ######### DO: compute bias and variance of knn regression #########
+    ######### compute bias and variance of knn regression #########
     
     # Compute mean of predicted values
     ybar_knn <- apply(yhat_knn, c(1, 3), mean) # E(f^hat)
