@@ -35,7 +35,7 @@ void Database::printTable(Table *table) const
     return;
 }
 
-// f C Z
+
 Database:: Database(const String &name, int numTables) 
 {   
     Database:: name = name;
@@ -73,7 +73,7 @@ Database:: Database(const String &name, int numTables)
     return;
 }
 
-// f C z
+
 Database:: Database(const String &filename)
 {
 
@@ -115,7 +115,7 @@ Database:: Database(const String &filename)
 
 }
 
-// f c z
+
 Database:: ~Database()
 {
 
@@ -129,7 +129,7 @@ Database:: ~Database()
     return;
 }
 
-// f  C Z
+
 bool Database:: addTable(Table *table)
 {
 
@@ -167,7 +167,7 @@ bool Database:: addTable(Table *table)
 
 }
 
-//f C Z
+
 void Database::addTable(const String &name)
 {
     
@@ -199,7 +199,7 @@ void Database::addTable(const String &name)
     return;
 }
 
-//f  C Z
+
 Table* Database:: findTable(const String &name) const
 {
 
@@ -215,7 +215,7 @@ Table* Database:: findTable(const String &name) const
 
 }
 
-//  f  c  Z
+
 void Database:: listTables() const
 {
     
@@ -229,7 +229,7 @@ void Database:: listTables() const
 
 }
 
-// f c  z
+
 void Database::  deleteTable(const String &name)
 {
     
@@ -273,7 +273,7 @@ void Database::  deleteTable(const String &name)
     return;
 }
 
-// f C Z 
+
 void Database:: setCurrentTable(const String &name)
 {
     
@@ -292,7 +292,7 @@ void Database:: setCurrentTable(const String &name)
     return;
 }
 
-//  
+
 void Database:: saveDatabase(const String &filename) const
 {
 
@@ -336,7 +336,7 @@ void Database:: saveDatabase(const String &filename) const
     return;
 }
 
-// bonus
+
 void Database:: innerJoin(Table* table1, Table* table2)
 {
 
@@ -395,9 +395,6 @@ void Database:: innerJoin(Table* table1, Table* table2)
             cout<< F2_name <<endl;
         }
     }
-
-    
-
 
     return;
 }
