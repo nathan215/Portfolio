@@ -5,9 +5,6 @@
 
 using namespace std;
 
-// this function will not be used in any way. For C++, templates are usually defined in header files. 
-// However, for ZINC grading, we separate it into different files. So we need to use this 'trick' to
-// instantiate the temnplate.
 void compiler_trick_useless_function(){
     Dictionary d{""};
     lambda_for_main_cpp ct;
@@ -150,7 +147,7 @@ ostream& operator<<(ostream& o, const Node& n){
 }
 
 /**
- * TODO - Constructor for deep copy of dictionary.
+Constructor for deep copy of dictionary.
 */
 Dictionary::Dictionary(const Dictionary& d){
     root = new Node;
@@ -165,7 +162,7 @@ Dictionary::Dictionary(const Dictionary& d){
 }
 
 /**
- * TODO - Assignment operator for deep copy of dictionary.
+ Assignment operator for deep copy of dictionary.
 */
 Dictionary& Dictionary::operator=(const Dictionary& d){
     if(this == &d){
@@ -186,9 +183,7 @@ Dictionary& Dictionary::operator=(const Dictionary& d){
 }
 
 /**
- * TODO - Adds a node with the given key string, which is terminated with '\0'.
- * You should assume the key consists of lowercase letters only.
- * Do not delete the pointer.
+Adds a node with the given key string, which is terminated with '\0'.
 */
 Node* Dictionary::add_node(const char* key){
     Node* result = helper_loop_find_key([](Node*& current_node, const int& idx) -> Node*
@@ -206,16 +201,15 @@ Node* Dictionary::add_node(const char* key){
 }
 
 /**
- * TODO - Shorthand for add_node.
+ * Shorthand for add_node.
 */
 Node* Dictionary::operator+=(const char* key){
     return add_node(key);
 }
 
 /**
- * TODO - Removes all nodes starting with the given key string, which is terminated with '\0'.
- * You should assume the key consists of lowercase letters only.
- * Do not delete the pointer const char* key (of course you should clean up the nodes that are removed).
+ * Removes all nodes starting with the given key string, which is terminated with '\0'.
+
 */
 void Dictionary::remove_node(const char* key){
     int last_idx = -1;
@@ -246,7 +240,7 @@ void Dictionary::remove_node(const char* key){
 }
 
 /**
- * TODO - Shorthand for remove_node.
+ *Shorthand for remove_node.
 */
 void Dictionary::operator-=(const char* key){
     remove_node(key);
@@ -266,16 +260,10 @@ Node* Dictionary::find_node(const char* key) const{
 }
 
 /**
- * TODO - A function to do pre-order traversal on the tree. The function accepts a lambda function as argument,
+ *  A function to do pre-order traversal on the tree. The function accepts a lambda function as argument,
  * and then the lambda function would be called for every node in the tree (except the root node). 
  * The lambda function accepts two arguments, (Node* current_node, vector<int>& current_key).
  * For each node accessed via pre-order traversal (except root node), call the lambda function.
- * 
- * Of course current_node should be the pointer to the node accessed. current_key should contain
- * a list of integers which corresponds to the indices required to travel to current_node from
- * the root node. For more explanation see the webpage.
- * 
- * The lambda is not supposed to change the dictionary.
 */
 template<typename T> void Dictionary::foreach(T&& lambda) const{
     vector<int> current_key;
@@ -319,8 +307,7 @@ template<typename T> void Dictionary::foreach(T&& lambda) const{
 }
 
 /**
- * TODO - Prints all the nodes in the dictionary, in depth first alphabetical order.
- * See the webpage description for more details.
+Prints all the nodes in the dictionary, in depth first alphabetical order.
 */
 void Dictionary::print_all_elements(ostream& o) const{
     int count = 1;
@@ -332,7 +319,7 @@ void Dictionary::print_all_elements(ostream& o) const{
 }
 
 /**
- * TODO - Calls print_all_elements
+* Calls print_all_elements
 */
 std::ostream& operator<<(std::ostream& o, const Dictionary& dict){
     dict.print_all_elements(o);
@@ -340,8 +327,7 @@ std::ostream& operator<<(std::ostream& o, const Dictionary& dict){
 }
 
 /**
- * TODO - Prints all the words in the dictionary, such that the word type is equal to the given type,
- * in depth first alphabetical order. See the webpage description for more details.
+ *  Prints all the words in the dictionary, such that the word type is equal to the given type.
 */
 void Dictionary::print_elements_given_type(const char* type) const{
     int count = 1;
@@ -357,18 +343,15 @@ void Dictionary::print_elements_given_type(const char* type) const{
 }
 
 /**
- * TODO - Merges with another dictionary. Creates a new dictionary,
- * and does not modify the contents of the original dictionaries.
- * For words that exists in both dictionary,
- * use the word definition in the dictionary this.
+ * Merges with another dictionary. Creates a new dictionary,and does not modify the contents of the original dictionaries.
+ * For words that exists in both dictionary,use the word definition in the dictionary this.
 */
 Dictionary Dictionary::merge(const Dictionary& d2) const{
     return merge(Dictionary{d2});
 }
 
 /**
- * TODO - Merges with another dictionary. Moves the contents of d2
- * into a new dictionary. For words that exists in both dictionary,
+ * Merges with another dictionary. Moves the contents of d2 into a new dictionary. For words that exists in both dictionary,
  * use the word definition in the dictionary this.
 */
 Dictionary Dictionary::merge(Dictionary&& d2) const{
@@ -402,8 +385,7 @@ Dictionary Dictionary::merge(Dictionary&& d2) const{
 }
 
 /**
- * TODO - Creates a new dictionary, consisting only of the words
- * starting with the given key.
+ * Creates a new dictionary, consisting only of the words starting with the given key.
 */
 Dictionary Dictionary::filter_starting_word(const char* key) const{
     if(key == nullptr){
