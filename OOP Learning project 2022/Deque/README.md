@@ -11,20 +11,23 @@ This project consists of a C++ implementation of a Deque (Double Ended Queue) da
 
 ## Features
 
-The Deque class implements the following functionality:
 
-    Adding elements to the front and back of the deque
-    Removing elements from the front and back of the deque
-    Checking if the deque is empty
-    Returning the size of the deque
+Implements a Deque class with the following methods:
+
+    push_back: inserts an element at the back of the deque
+    push_front: inserts an element at the front of the deque
+    pop_back: removes the last element from the deque
+    pop_front: removes the first element from the deque
+    empty: returns true if the deque is empty, false otherwise
+    size: returns the number of elements in the deque
+    print: prints the elements of the deque, starting from the front
 
 ## Technique
 
-The Deque implementation uses the following programming techniques:
+The code makes use of the following techniques:
 
-    Object-Oriented Programming (OOP) concepts such as class and object definition, inheritance, and polymorphism
-    Linked list data structure to store the elements in the deque
-    Templates to support elements of any data type in the deque
-    Exception handling to handle scenarios such as removing elements from an empty deque.
+    Pointers to manipulate data
+    Linked list implementation
+    Structs to define new data types
 
-The code is well-commented and follows good coding practices, making it easy to understand and modify.
+The implementation of the Deque class makes use of a linked list variant, where each node contains an element and pointers to the previous and next nodes in the list. The linked list allows for constant time insertion and removal of elements from both ends of the deque. The use of pointers and structs makes the implementation efficient and flexible.
