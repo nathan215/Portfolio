@@ -1,0 +1,177 @@
+Enter text: This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+===================================
+1. Character Count
+2. Word Count
+3. Encrypt (Caeser Cipher)
+4. Find and Replace String Globally
+5. Find Frequency of String
+6. Print Left Align Text
+7. Print Right Align Text
+8. Print Left-Right Align Text
+9. Print Pig Latin
+Please make your choice: 1
+Total character count: 621
+
+Enter text: This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+===================================
+1. Character Count
+2. Word Count
+3. Encrypt (Caeser Cipher)
+4. Find and Replace String Globally
+5. Find Frequency of String
+6. Print Left Align Text
+7. Print Right Align Text
+8. Print Left-Right Align Text
+9. Print Pig Latin
+Please make your choice: 2
+Total word count: 78
+
+Enter text: This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+===================================
+1. Character Count
+2. Word Count
+3. Encrypt (Caeser Cipher)
+4. Find and Replace String Globally
+5. Find Frequency of String
+6. Print Left Align Text
+7. Print Right Align Text
+8. Print Left-Right Align Text
+9. Print Pig Latin
+Please make your choice: 3
+Enter the shift amount for the caeser cipher encryption (rotation encryption): 5
+Ymnx htzwxj nx fs fhhjqjwfyji fsi nsyjsxnaj htzwxj ts htshjuyx fsi yjhmsnvzjx gjmnsi tgojhy-twnjsyji uwtlwfrrnsl fsi ifyf xywzhyzwjx zxnsl fs TTU qfslzflj. Nyx hzwwnhzqzr nx ijxnlsji ktw xyzijsyx bnym jchjqqjsy uwtlwfrrnsl gfhplwtzsi tw xzgxyfsynfq uwtlwfrrnsl jcujwnjshj. Ytunhx nshqzij, kzshyntsx, utnsyjwx, fgxywfhy ifyf ydujx fsi ymjnw hqfxx nruqjrjsyfynts, xyfynh fsi idsfrnh htsxywzhynts fsi ijxywzhynts tk tgojhyx, ifyf rjrgjw fsi rjrgjw kzshyntsx, uzgqnh nsyjwkfhj fsi jshfuxzqfynts, hqfxx mnjwfwhmnjx, utqdrtwumnxr, nsmjwnyfshj fsi idsfrnh gnsinsl, xyfsifwi yjruqfyj qngwfwd, ljsjwnh uwtlwfrrnsl zxnsl yjruqfyjx.
+
+Enter text: This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+===================================
+1. Character Count
+2. Word Count
+3. Encrypt (Caeser Cipher)
+4. Find and Replace String Globally
+5. Find Frequency of String
+6. Print Left Align Text
+7. Print Right Align Text
+9. Print Left-Right Align Text
+8. Print Pig Latin
+Please make your choice: 4
+Enter the string to find and replace: data
+Enter the string to replace it with: Data
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and Data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract Data types and their class implementation, static and dynamic construction and destruction of objects, Data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+
+Enter text: This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+===================================
+1. Character Count
+2. Word Count
+3. Encrypt (Caeser Cipher)
+4. Find and Replace String Globally
+5. Find Frequency of String
+6. Print Left Align Text
+7. Print Right Align Text
+8. Print Left-Right Align Text
+9. Print Pig Latin
+Please make your choice: 5
+Enter the string to count the occurences of: programming
+"programming" appears in the text 4 time(s).
+
+Enter text: This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+===================================
+1. Character Count
+2. Word Count
+3. Encrypt (Caeser Cipher)
+4. Find and Replace String Globally
+5. Find Frequency of String
+6. Print Left Align Text
+7. Print Right Align Text
+8. Print Left-Right Align Text
+9. Print Pig Latin
+Please make your choice: 6
+This course is an accelerated and intensive
+course on concepts and techniques behind
+object-oriented programming and data structures
+using an OOP language. Its curriculum is designed
+for students with excellent programming
+background or substantial programming experience.
+Topics include, functions, pointers, abstract
+data types and their class implementation, static
+and dynamic construction and destruction of
+objects, data member and member functions, public
+interface and encapsulation, class hierarchies,
+polymorphism, inheritance and dynamic binding,
+standard template library, generic programming
+using templates.
+
+Enter text: This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+===================================
+1. Character Count
+2. Word Count
+3. Encrypt (Caeser Cipher)
+4. Find and Replace String Globally
+5. Find Frequency of String
+6. Print Left Align Text
+7. Print Right Align Text
+8. Print Left-Right Align Text
+9. Print Pig Latin
+Please make your choice: 7
+      This course is an accelerated and intensive
+         course on concepts and techniques behind
+  object-oriented programming and data structures
+using an OOP language. Its curriculum is designed
+          for students with excellent programming
+background or substantial programming experience.
+    Topics include, functions, pointers, abstract
+data types and their class implementation, static
+      and dynamic construction and destruction of
+objects, data member and member functions, public
+  interface and encapsulation, class hierarchies,
+   polymorphism, inheritance and dynamic binding,
+   standard template library, generic programming
+                                 using templates.
+
+Enter text: This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+===================================
+1. Character Count
+2. Word Count
+3. Encrypt (Caeser Cipher)
+4. Find and Replace String Globally
+5. Find Frequency of String
+6. Print Left Align Text
+7. Print Right Align Text
+8. Print Left-Right Align Text
+9. Print Pig Latin
+Please make your choice: 8
+This  course  is  an  accelerated  and  intensive
+course   on   concepts   and   techniques  behind
+object-oriented  programming  and data structures
+using an OOP language. Its curriculum is designed
+for    students    with   excellent   programming
+background or substantial programming experience.
+Topics  include,  functions,  pointers,  abstract
+data types and their class implementation, static
+and   dynamic  construction  and  destruction  of
+objects, data member and member functions, public
+interface  and  encapsulation, class hierarchies,
+polymorphism,  inheritance  and  dynamic binding,
+standard  template  library,  generic programming
+using templates.
+
+Enter text: This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+This course is an accelerated and intensive course on concepts and techniques behind object-oriented programming and data structures using an OOP language. Its curriculum is designed for students with excellent programming background or substantial programming experience. Topics include, functions, pointers, abstract data types and their class implementation, static and dynamic construction and destruction of objects, data member and member functions, public interface and encapsulation, class hierarchies, polymorphism, inheritance and dynamic binding, standard template library, generic programming using templates.
+===================================
+1. Character Count
+2. Word Count
+3. Encrypt (Caeser Cipher)
+4. Find and Replace String Globally
+5. Find Frequency of String
+6. Print Left Align Text
+7. Print Right Align Text
+8. Print Left-Right Align Text
+9. Print Pig Latin
+Please make your choice: 9
+isthay oursecay isyay anyay acceleratedyay andyay intensiveyay oursecay onyay onceptscay andyay echniquestay ehindbay object-orientedyay ogrammingpray andyay ataday ucturesstray usingyay anyay oopyay anguagelay. itsyay urriculumcay isyay esignedday orfay udentsstay ithway excellentyay ogrammingpray ackgroundbay oryay ubstantialsay ogrammingpray experienceyay. opicstay includeyay, unctionsfay, ointerspay, abstractyay ataday estypay andyay eirthay assclay implementationyay, aticstay andyay amicdynay onstructioncay andyay estructionday ofyay objectsyay, ataday embermay andyay embermay unctionsfay, ublicpay interfaceyay andyay encapsulationyay, assclay ierarchieshay, olymorphismpay, inheritanceyay andyay amicdynay indingbay, andardstay emplatetay ibrarylay, enericgay ogrammingpray usingyay emplatestay.
