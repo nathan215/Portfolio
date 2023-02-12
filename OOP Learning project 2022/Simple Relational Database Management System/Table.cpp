@@ -35,7 +35,7 @@ String *Table::operator[](int index) const
     return cur->column;
 }
 
-// f c z 
+
 Table:: Table(const String &name)
 {
     Table:: name = name;
@@ -47,7 +47,7 @@ Table:: Table(const String &name)
     return;
 }
 
-// F C Z 
+
 Table:: Table(ifstream &ifs, const String &name)
 {
     Table:: name = name;
@@ -147,7 +147,7 @@ Table:: Table(ifstream &ifs, const String &name)
     return;
 }
 
-// F C Z 
+ 
 Table:: ~Table()
 {
     Field *p = fieldHead;
@@ -161,7 +161,7 @@ Table:: ~Table()
     return;
 }
 
-// F C Z 
+
 void Table:: addRecord(int index, String *record)
 {
     
@@ -236,7 +236,7 @@ void Table:: addRecord(int index, String *record)
     
 }
 
-// f C Z
+
 void Table:: addField(int index, const String &name, TYPE type)
 {
     //check
@@ -304,7 +304,7 @@ void Table:: addField(int index, const String &name, TYPE type)
 
 }
 
-// f c Z
+
 void Table:: deleteRecord(int row)
 {
     if( (row < 0)|| (row >= numRows))
@@ -326,7 +326,7 @@ void Table:: deleteRecord(int row)
     return;
 }
 
-// f c Z
+
 void Table:: modifyRecord(int row, int column, const String &newVal)
 {
     if( (row < 0)|| (row >= numRows))
@@ -375,7 +375,7 @@ void Table:: modifyRecord(int row, int column, const String &newVal)
     return;
 }
 
-// f c Z
+
 void Table:: setPrimaryKey(const String &name)
 {
     Field *p = fieldHead;
@@ -418,7 +418,7 @@ void Table:: setPrimaryKey(const String &name)
     return;
 }
 
-// f c Z
+
 void Table:: setColumnIndex(int index, const String &target)
 {
 
@@ -498,7 +498,7 @@ void Table:: setColumnIndex(int index, const String &target)
 
 }
 
-// f c 
+
 void Table:: deleteField(const String &name)
 {
 
@@ -574,7 +574,7 @@ void Table:: deleteField(const String &name)
     return;
 }
 
-//f c z 
+
 Field*  Table:: findField(const String &name) const
 {
 
